@@ -35,8 +35,8 @@ public class PayServiceTest {
     @Test
     public void callbackPayment() throws InterruptedException, RemotingException, MQClientException, MQBrokerException, IOException {
 
-        long payId = 352516176372441088L;
-        long orderId = 351526299216515072L;
+        long payId = 507929316491927552L;
+        long orderId = 507724506744360960L;
 
         TradePay tradePay = new TradePay();
         tradePay.setPayId(payId);
